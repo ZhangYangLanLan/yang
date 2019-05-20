@@ -1,0 +1,446 @@
+.listBox{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+    .path15{
+        width: 1200px;
+        float: left;
+        color: #959595;
+        line-height: 40px;
+        a{
+           color: #959595;
+        }
+    }
+    .box210{
+        width: 210px;
+        .list15_menu{
+            width: 208px;
+            float: left;
+            border-top: 2px solid #8ab700;
+            border-left: 1px solid #efefe8;
+            border-right: 1px solid #efefe8;
+            margin-bottom: 15px;
+            ul{
+                background-color: #fafafa;
+                color: #6b6b56;
+                font: 400 16px/35px "微软雅黑";
+                padding-left: 22px; 
+            }
+            dl{
+                width: 208px;
+                float: left;
+                border-bottom: 1px solid #efefe8;
+                dt{
+                    width: 208px;
+                    float: left;
+                    height: 35px;
+                    
+                    cursor: pointer;
+                    background: url(../images/list_ico_cb3fabd3.png) 22px -63px no-repeat #8ab700;
+                  a{
+                    font: 800 14px/35px "宋体";
+                    color: #78a000;
+                    margin-left: 42px;
+                    color: #fff;
+                   }
+                }
+                dd{
+                    float: left;
+                    padding: 5px 0 5px 34px;
+                    width: 174px;
+                    
+//                  display: none;
+                    em{
+                        width: 174px;
+                        float: left;
+                        a{
+                            padding: 0 8px;
+                            color: #4c4c4c;
+                            line-height: 26px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            ul:first-child+dl+dl dd{
+                display: none;
+            }
+            ul:first-child+dl+dl+dl dd{
+                display: none;
+            }
+        }
+        .list15_record{
+            width: 208px;
+            float: left;
+            border-top: 2px solid #8ab700;
+            border-left: 1px solid #efefe8;
+            border-right: 1px solid #efefe8;
+            margin-bottom: 15px;
+            dl{
+                dt{
+                    background-color: #fafafa;
+                    color: #6b6b56;
+                    font: 400 16px/35px "微软雅黑";
+                    padding-left: 22px;
+                    a{
+                        float: right;
+                        border: 1px solid #8ab700;
+                        font: 400 12px/18px "微软雅黑";
+                        color: #8ab700;
+                        display: inline-block;
+                        padding: 0 8px;
+                        margin: 7px 10px 0 0;
+                    }
+                }
+                dd{
+                    border-bottom: 1px solid #efefe8;
+                    padding: 10px;
+                    width: 188px;
+                    float: left;
+                    p{
+                        
+                        a{
+                            img{
+                                width: 70px;
+                                height: 70px;
+                                float: left;
+                                margin-right: 5px;
+                            }
+                        }
+                        
+                    }
+                    .name a{
+                        float: right;
+                        width: 113px;
+                        height: 36px;
+                        font: 400 12px/18px "Microsoft YaHei";
+                        color: #3e4141;
+                        text-overflow: clip;
+                        display: block;
+                        overflow: hidden;
+                        margin-top: 5px;
+                    }
+                    .price{
+                        color: #ff6900;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+    .box970{
+        width: 970px;
+        .list15_name{
+            width: 970px;
+            float: left;
+            margin-bottom: 10px;
+            h1{
+                font: 400 20px/35px "微软雅黑";
+                color: #333;
+            }
+        }
+        .list15_sequence{
+            width: 970px;
+            float: left;
+            background-color: #f8f8f6;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            height: 32px;
+            ul{
+                width: 460px;
+                float: left;
+                padding-left: 10px;
+                li{
+                    padding: 0 25px;
+                    float: left;
+                    position: relative;
+                    z-index: 0;
+                    a{
+                        line-height: 33px;
+                        color: #626262;
+                    }
+                }
+            }
+            dl{
+                width: 500px;
+                float: right;
+                dt{
+                    float: right;
+                    padding: 0 25px;
+                    color: #626262;
+                    line-height: 33px;
+                }
+                dd{
+                    float: right;
+                    padding-top: 8px;
+                    a{
+                        float: left;
+                        color: #626262;
+                        border: 1px solid #d2d2d0;
+                        padding: 0 6px;
+                        line-height: 14px;
+                        display: block;
+                    }
+                    a.nextbtn{
+                        float: left;
+                        color: #626262;
+                        border: 1px solid #d2d2d0;
+                        padding: 0 0;
+                        
+                        display: block;
+                        width: 20px;
+                        height: 14px;
+                        text-align: center;
+                        background: #f8f8f6;
+                        margin: 0;
+                    }
+                    p{
+                        float: left;
+                        line-height: 16px;
+                        color: #626262;
+                        padding: 0 15px;
+                        span{
+                            color: #ff6900;
+                        }
+                    }
+                }
+            }
+        }
+        .list15_sku{
+            width: 970px;
+            float: left;
+            border-top: 1px solid #eee;
+            border-left: 1px solid #eee;
+            margin-bottom: 30px;
+            dl{
+                width: 242px;
+                float: left;
+                height: 395px;
+                position: relative;
+                z-index: 0;
+                dd{
+                    width: 241px;
+                    float: left;
+                    height: 394px;
+                    border-bottom: 1px solid #eee;
+                    border-right: 1px solid #eee;
+                    background-color: #fff;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: 4;
+                    top: 0;
+                    left: 0;
+                    .box{
+                        border: 4px solid #fff;
+                        width: 240px;
+                        height: 386px;
+                        padding: 0 11px;
+                        position: relative;
+                        transition: all .2s linear;
+                        .pic{
+                            margin-top: 26px;
+                            width: 211px;
+                            text-align: center;
+                            transition: all .2s linear;
+                            a{
+                                color: #666;
+                                text-decoration: none;
+                                outline: 0;
+                                cursor: pointer;
+                                img{
+                                    width: 201px;
+                                    height: 201px;
+                                }
+                            }
+                        }
+                        .name{
+                            height: 48px;
+                            width: 211px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                            margin-top: 20px;
+                            transition: all .2s linear;
+                            a{
+                                font: 400 14px/24px "Microsoft YaHei";
+                                color: #1b1b15;
+                                text-decoration: none;
+                                font{
+                                    max-height: 24px;
+                                    _height: 24px;
+                                    text-overflow: clip;
+                                    display: block;
+                                    overflow: hidden;
+                                    font-size: 14px;
+                                    transition: all .2s linear;
+                                    cursor: pointer;
+                                    
+                                }
+                                span{
+                                    font: 400 12px/24px "Microsoft YaHei";
+                                    color: #929292;
+                                    text-overflow: clip;
+                                    display: block;
+                                    overflow: hidden;
+                                    font-size: 14px;
+                                    height: 24px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .price{
+                            font: 400 20px/25px "Microsoft YaHei";
+                            color: #ff6900;
+                            margin-top: 5px;
+                            transition: all .2s linear;
+                            span{
+                                font: 400 14px/25px "Microsoft YaHei";
+                                color: #686c69;
+                                text-decoration: line-through;
+                                margin-left: 10px;
+                            }
+                        }
+                        .cold{
+                            float: left;
+                            border: 1px solid #ff6900;
+                            font: 400 12px/17px "Microsoft YaHei";
+                            color: #ff6900;
+                            padding: 0 5px;
+                            margin-top: 8px;
+                            span{
+                                float: left;
+//                              border: 1px solid #ff6900;
+                                font: 400 12px/17px "Microsoft YaHei";
+                                color: #ff6900;
+                                padding: 0 5px;
+                               
+                            }
+                        }
+                        .quantity{
+                            margin: 4px 0 0;
+                            float: right;
+                            display: none;
+                            a.jian{
+                                background: url(../images/list_ico_cb3fabd3.png) 0 0 no-repeat;
+                                width: 18px;
+                                height: 24px;
+                                display: block;
+                                float: left;
+                            }
+                            input{
+                                border: 1px solid #eeeee7;
+                                width: 32px;
+                                height: 22px;
+                                float: left;
+                                text-align: center;
+                                font: 400 14px/22px "Microsoft YaHei";
+                                color: #626252;
+                            }
+                            a.jia{
+                                background: url(../images/list_ico_cb3fabd3.png) -19px 0 no-repeat;
+                                width: 18px;
+                                height: 24px;
+                                display: block;
+                                float: left;
+                            }
+                        }
+                        .btn{
+                            position: absolute;
+                            top: 390px;
+                            left: 0;
+                            transition: all .2s linear;
+                            z-index: 2;
+                            a{
+                                color: #666;
+                                text-decoration: none;
+                                outline: 0;
+                                cursor: pointer;
+                                img{
+                                    width: 233px;
+                                    height: 32px;
+                                }
+                            }
+                        }
+                    }
+                }
+                dd:hover .box{
+                    border: 4px solid #f0f0f0;
+                    transition: all .2s linear;
+                }
+                dd:hover .pic{
+                    margin-top: 10px;
+                    transition: all .2s linear;
+                }
+                dd:hover .name {
+                    height: 72px;
+                    margin-top: 5px;
+                    transition: all .2s linear;
+                }
+                dd:hover .quantity {
+                    display: block;
+                }
+                dd:hover .btn {
+                    position: absolute;
+                    top: 354px;
+                    left: 0;
+                    transition: all .2s linear;
+                }
+            }
+        }
+        .page15{
+            dl{
+                float: left;
+                position: relative;
+                dt{
+                    width: 900px;
+                    float: left;
+                    
+                    p{
+                        line-height: 24px;
+                        float: left;
+                    }
+                    .shouye{
+                        float: left;
+                        a{
+                            
+                        }
+                    }
+                    .weiye{
+                        float: right;
+                    }
+                    input{
+                        border: 1px solid #d8d8d8;
+                        width: 18px;
+                        height: 22px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: #626262;
+                        margin: 0 8px 0 3px;
+                        float: left;
+                    }
+                    a{
+                        background-color: #8ab700;
+                        color: #fff;
+                        border: 1px solid #657437;
+                        padding: 0 10px;
+                        display: block;
+                        line-height: 22px;
+                        float: left;
+                        margin-left: 10px;
+                    }
+                }
+                dd{
+                    float: left;
+                    position: absolute;
+                    top:-28px;
+                    left: 58px;
+                }
+            }
+        }
+    }
+           
+}
+#footer{
+    margin: 100px 0 0 0;
+    clear: both;
+}

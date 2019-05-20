@@ -1,0 +1,174 @@
+.zhangYang-menu-auto-left-pd{
+    display: none;
+}
+
+.zhangYang-login{
+    
+    .zhangYang-login-ye{
+        margin: 20px 0;
+        a{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+        span{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+        i{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+    }
+    
+    .login_user{
+        border:1px solid #ddd;
+        width: 462px;
+        height: 590px;
+        float: left;
+        padding: 0 20px;
+        ul{
+            margin: 10px 0 0 0 ;
+        }
+        .title15_qq{
+            margin:40px auto ;
+            width: 400px;
+            p{
+                font:400 22px/19px "Microsoft YaHei";
+            }
+        }
+        .register_box,.psw{
+            float: left;
+            width: 400px;
+            height: 44px;
+            position: relative;
+            border:1px solid #ddd;
+            dl{
+                float: left;
+                width: 398px;
+                border: 1px solid #ddd;
+                margin-bottom: 30px;
+                padding: 7px 0;
+                position: relative;
+                z-index: 0;
+                 p{
+                    float: left;
+                    width: 100px;
+                    text-align: center;
+                    border-right: 1px solid #ddd;
+                    font: 400 14px/28px "Microsoft YaHei";
+                    margin-right: 10px;
+                    display: inline;
+                }
+                s{
+                    position: absolute;
+                    top: 8px;
+                    right: 10px;
+                    width: 25px;
+                    height: 25px;
+                    background: url(../images/login_ico_ec3070b7.png) no-repeat;
+                        background-position: 0 -102px;
+                }
+                input{
+                    float: right;
+                    font: 400 14px/28px "Microsoft YaHei";
+                    width: 240px;
+                    height: 28px;
+                    border: 0;
+                }
+                
+            }
+            .prompt{
+                        position:absolute;
+                        top:-20px;
+                        left: 0;
+                    }
+           
+            .tishiPsw{
+                        font-size: 12px;
+                        color: red;
+                        position: absolute;
+                        top:-20px;
+                        left: 0;
+                        display: none;
+                    }
+        }
+         
+        .protocol{
+            float: left;
+            >p{
+                
+                float: left;
+                font: 400 14px/20px "Microsoft YaHei";
+                width: 100%;
+                margin-bottom: 20px;
+                position: relative;
+                a{
+                    color:#8ab700 ;
+                }
+            }
+            .logBtns{
+                float: left;
+                >a{
+                    display:block;
+                    width: 400px;
+                    height: 58px;
+                    text-align: center;
+                    font: 400 24px/58px "Microsoft YaHei";
+                    color: #fff; 
+                    background: #ff6900;  
+                    text-decoration: none;  
+                                  
+                }
+                p{
+                    text-align: right;
+                    font: 400 14px/20px "Microsoft YaHei";
+                    a{
+                        color:#8ab700 ;
+                        text-decoration: none;
+                    }
+                }
+            }
+        } 
+        .other{
+            li{
+                font: 400 14px/50px "Microsoft YaHei";
+                em{
+                    a{
+                        display: inline-block;
+                        width: 88px;
+                        height: 32px;
+                        font: 400 12px/30px "宋体";
+                        color: #666;
+                        padding: 0 6px 0 32px;
+                        border: 1px solid #eaeaea;
+                        white-space: nowrap;
+                        width: auto;
+                        float: left;
+                        background: url(../images/login_ico_ec3070b7.png) no-repeat #fbfbfb;
+                        text-decoration: none;
+                    }
+                    
+                    
+                }
+                em:first-child a{
+                    background-position: 6px -197px;
+                }
+                em:first-child+em a{
+                     background-position: 6px -227px;
+                }
+                em:first-child+em+em a{
+                     background-position: 6px -257px;
+                }  
+                em:first-child+em+em+em a{
+                     background-position: 6px -537px;
+                }
+                em:first-child+em+em+em+em a{
+                     background-position: 6px -757px;
+                }
+                em:first-child+em+em+em+em+em a{
+                     background-position: 6px -807px;
+                }
+            }
+        }   
+    }
+}

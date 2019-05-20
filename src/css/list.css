@@ -1,0 +1,357 @@
+@charset "UTF-8";
+.listBox {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both; }
+  .listBox .path15 {
+    width: 1200px;
+    float: left;
+    color: #959595;
+    line-height: 40px; }
+    .listBox .path15 a {
+      color: #959595; }
+  .listBox .box210 {
+    width: 210px; }
+    .listBox .box210 .list15_menu {
+      width: 208px;
+      float: left;
+      border-top: 2px solid #8ab700;
+      border-left: 1px solid #efefe8;
+      border-right: 1px solid #efefe8;
+      margin-bottom: 15px; }
+      .listBox .box210 .list15_menu ul {
+        background-color: #fafafa;
+        color: #6b6b56;
+        font: 400 16px/35px "微软雅黑";
+        padding-left: 22px; }
+      .listBox .box210 .list15_menu dl {
+        width: 208px;
+        float: left;
+        border-bottom: 1px solid #efefe8; }
+        .listBox .box210 .list15_menu dl dt {
+          width: 208px;
+          float: left;
+          height: 35px;
+          cursor: pointer;
+          background: url(../images/list_ico_cb3fabd3.png) 22px -63px no-repeat #8ab700; }
+          .listBox .box210 .list15_menu dl dt a {
+            font: 800 14px/35px "宋体";
+            color: #78a000;
+            margin-left: 42px;
+            color: #fff; }
+        .listBox .box210 .list15_menu dl dd {
+          float: left;
+          padding: 5px 0 5px 34px;
+          width: 174px; }
+          .listBox .box210 .list15_menu dl dd em {
+            width: 174px;
+            float: left; }
+            .listBox .box210 .list15_menu dl dd em a {
+              padding: 0 8px;
+              color: #4c4c4c;
+              line-height: 26px;
+              display: inline-block; }
+      .listBox .box210 .list15_menu ul:first-child + dl + dl dd {
+        display: none; }
+      .listBox .box210 .list15_menu ul:first-child + dl + dl + dl dd {
+        display: none; }
+    .listBox .box210 .list15_record {
+      width: 208px;
+      float: left;
+      border-top: 2px solid #8ab700;
+      border-left: 1px solid #efefe8;
+      border-right: 1px solid #efefe8;
+      margin-bottom: 15px; }
+      .listBox .box210 .list15_record dl dt {
+        background-color: #fafafa;
+        color: #6b6b56;
+        font: 400 16px/35px "微软雅黑";
+        padding-left: 22px; }
+        .listBox .box210 .list15_record dl dt a {
+          float: right;
+          border: 1px solid #8ab700;
+          font: 400 12px/18px "微软雅黑";
+          color: #8ab700;
+          display: inline-block;
+          padding: 0 8px;
+          margin: 7px 10px 0 0; }
+      .listBox .box210 .list15_record dl dd {
+        border-bottom: 1px solid #efefe8;
+        padding: 10px;
+        width: 188px;
+        float: left; }
+        .listBox .box210 .list15_record dl dd p a img {
+          width: 70px;
+          height: 70px;
+          float: left;
+          margin-right: 5px; }
+        .listBox .box210 .list15_record dl dd .name a {
+          float: right;
+          width: 113px;
+          height: 36px;
+          font: 400 12px/18px "Microsoft YaHei";
+          color: #3e4141;
+          text-overflow: clip;
+          display: block;
+          overflow: hidden;
+          margin-top: 5px; }
+        .listBox .box210 .list15_record dl dd .price {
+          color: #ff6900;
+          line-height: 26px; }
+  .listBox .box970 {
+    width: 970px; }
+    .listBox .box970 .list15_name {
+      width: 970px;
+      float: left;
+      margin-bottom: 10px; }
+      .listBox .box970 .list15_name h1 {
+        font: 400 20px/35px "微软雅黑";
+        color: #333; }
+    .listBox .box970 .list15_sequence {
+      width: 970px;
+      float: left;
+      background-color: #f8f8f6;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      height: 32px; }
+      .listBox .box970 .list15_sequence ul {
+        width: 460px;
+        float: left;
+        padding-left: 10px; }
+        .listBox .box970 .list15_sequence ul li {
+          padding: 0 25px;
+          float: left;
+          position: relative;
+          z-index: 0; }
+          .listBox .box970 .list15_sequence ul li a {
+            line-height: 33px;
+            color: #626262; }
+      .listBox .box970 .list15_sequence dl {
+        width: 500px;
+        float: right; }
+        .listBox .box970 .list15_sequence dl dt {
+          float: right;
+          padding: 0 25px;
+          color: #626262;
+          line-height: 33px; }
+        .listBox .box970 .list15_sequence dl dd {
+          float: right;
+          padding-top: 8px; }
+          .listBox .box970 .list15_sequence dl dd a {
+            float: left;
+            color: #626262;
+            border: 1px solid #d2d2d0;
+            padding: 0 6px;
+            line-height: 14px;
+            display: block; }
+          .listBox .box970 .list15_sequence dl dd a.nextbtn {
+            float: left;
+            color: #626262;
+            border: 1px solid #d2d2d0;
+            padding: 0 0;
+            display: block;
+            width: 20px;
+            height: 14px;
+            text-align: center;
+            background: #f8f8f6;
+            margin: 0; }
+          .listBox .box970 .list15_sequence dl dd p {
+            float: left;
+            line-height: 16px;
+            color: #626262;
+            padding: 0 15px; }
+            .listBox .box970 .list15_sequence dl dd p span {
+              color: #ff6900; }
+    .listBox .box970 .list15_sku {
+      width: 970px;
+      float: left;
+      border-top: 1px solid #eee;
+      border-left: 1px solid #eee;
+      margin-bottom: 30px; }
+      .listBox .box970 .list15_sku dl {
+        width: 242px;
+        float: left;
+        height: 395px;
+        position: relative;
+        z-index: 0; }
+        .listBox .box970 .list15_sku dl dd {
+          width: 241px;
+          float: left;
+          height: 394px;
+          border-bottom: 1px solid #eee;
+          border-right: 1px solid #eee;
+          background-color: #fff;
+          overflow: hidden;
+          position: absolute;
+          z-index: 4;
+          top: 0;
+          left: 0; }
+          .listBox .box970 .list15_sku dl dd .box {
+            border: 4px solid #fff;
+            width: 240px;
+            height: 386px;
+            padding: 0 11px;
+            position: relative;
+            transition: all .2s linear; }
+            .listBox .box970 .list15_sku dl dd .box .pic {
+              margin-top: 26px;
+              width: 211px;
+              text-align: center;
+              transition: all .2s linear; }
+              .listBox .box970 .list15_sku dl dd .box .pic a {
+                color: #666;
+                text-decoration: none;
+                outline: 0;
+                cursor: pointer; }
+                .listBox .box970 .list15_sku dl dd .box .pic a img {
+                  width: 201px;
+                  height: 201px; }
+            .listBox .box970 .list15_sku dl dd .box .name {
+              height: 48px;
+              width: 211px;
+              text-overflow: clip;
+              display: block;
+              overflow: hidden;
+              margin-top: 20px;
+              transition: all .2s linear; }
+              .listBox .box970 .list15_sku dl dd .box .name a {
+                font: 400 14px/24px "Microsoft YaHei";
+                color: #1b1b15;
+                text-decoration: none; }
+                .listBox .box970 .list15_sku dl dd .box .name a font {
+                  max-height: 24px;
+                  _height: 24px;
+                  text-overflow: clip;
+                  display: block;
+                  overflow: hidden;
+                  font-size: 14px;
+                  transition: all .2s linear;
+                  cursor: pointer; }
+                .listBox .box970 .list15_sku dl dd .box .name a span {
+                  font: 400 12px/24px "Microsoft YaHei";
+                  color: #929292;
+                  text-overflow: clip;
+                  display: block;
+                  overflow: hidden;
+                  font-size: 14px;
+                  height: 24px;
+                  cursor: pointer; }
+            .listBox .box970 .list15_sku dl dd .box .price {
+              font: 400 20px/25px "Microsoft YaHei";
+              color: #ff6900;
+              margin-top: 5px;
+              transition: all .2s linear; }
+              .listBox .box970 .list15_sku dl dd .box .price span {
+                font: 400 14px/25px "Microsoft YaHei";
+                color: #686c69;
+                text-decoration: line-through;
+                margin-left: 10px; }
+            .listBox .box970 .list15_sku dl dd .box .cold {
+              float: left;
+              border: 1px solid #ff6900;
+              font: 400 12px/17px "Microsoft YaHei";
+              color: #ff6900;
+              padding: 0 5px;
+              margin-top: 8px; }
+              .listBox .box970 .list15_sku dl dd .box .cold span {
+                float: left;
+                font: 400 12px/17px "Microsoft YaHei";
+                color: #ff6900;
+                padding: 0 5px; }
+            .listBox .box970 .list15_sku dl dd .box .quantity {
+              margin: 4px 0 0;
+              float: right;
+              display: none; }
+              .listBox .box970 .list15_sku dl dd .box .quantity a.jian {
+                background: url(../images/list_ico_cb3fabd3.png) 0 0 no-repeat;
+                width: 18px;
+                height: 24px;
+                display: block;
+                float: left; }
+              .listBox .box970 .list15_sku dl dd .box .quantity input {
+                border: 1px solid #eeeee7;
+                width: 32px;
+                height: 22px;
+                float: left;
+                text-align: center;
+                font: 400 14px/22px "Microsoft YaHei";
+                color: #626252; }
+              .listBox .box970 .list15_sku dl dd .box .quantity a.jia {
+                background: url(../images/list_ico_cb3fabd3.png) -19px 0 no-repeat;
+                width: 18px;
+                height: 24px;
+                display: block;
+                float: left; }
+            .listBox .box970 .list15_sku dl dd .box .btn {
+              position: absolute;
+              top: 390px;
+              left: 0;
+              transition: all .2s linear;
+              z-index: 2; }
+              .listBox .box970 .list15_sku dl dd .box .btn a {
+                color: #666;
+                text-decoration: none;
+                outline: 0;
+                cursor: pointer; }
+                .listBox .box970 .list15_sku dl dd .box .btn a img {
+                  width: 233px;
+                  height: 32px; }
+        .listBox .box970 .list15_sku dl dd:hover .box {
+          border: 4px solid #f0f0f0;
+          transition: all .2s linear; }
+        .listBox .box970 .list15_sku dl dd:hover .pic {
+          margin-top: 10px;
+          transition: all .2s linear; }
+        .listBox .box970 .list15_sku dl dd:hover .name {
+          height: 72px;
+          margin-top: 5px;
+          transition: all .2s linear; }
+        .listBox .box970 .list15_sku dl dd:hover .quantity {
+          display: block; }
+        .listBox .box970 .list15_sku dl dd:hover .btn {
+          position: absolute;
+          top: 354px;
+          left: 0;
+          transition: all .2s linear; }
+    .listBox .box970 .page15 dl {
+      float: left;
+      position: relative; }
+      .listBox .box970 .page15 dl dt {
+        width: 900px;
+        float: left; }
+        .listBox .box970 .page15 dl dt p {
+          line-height: 24px;
+          float: left; }
+        .listBox .box970 .page15 dl dt .shouye {
+          float: left; }
+        .listBox .box970 .page15 dl dt .weiye {
+          float: right; }
+        .listBox .box970 .page15 dl dt input {
+          border: 1px solid #d8d8d8;
+          width: 18px;
+          height: 22px;
+          line-height: 22px;
+          text-align: center;
+          color: #626262;
+          margin: 0 8px 0 3px;
+          float: left; }
+        .listBox .box970 .page15 dl dt a {
+          background-color: #8ab700;
+          color: #fff;
+          border: 1px solid #657437;
+          padding: 0 10px;
+          display: block;
+          line-height: 22px;
+          float: left;
+          margin-left: 10px; }
+      .listBox .box970 .page15 dl dd {
+        float: left;
+        position: absolute;
+        top: -28px;
+        left: 58px; }
+
+#footer {
+  margin: 100px 0 0 0;
+  clear: both; }
+
+/*# sourceMappingURL=list.css.map */

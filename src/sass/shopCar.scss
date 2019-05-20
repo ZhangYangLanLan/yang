@@ -1,0 +1,146 @@
+.zhangYang-menu-auto-left-pd{
+    display: none;
+}
+#footer{
+    margin: 50px 0;
+}
+
+.box990{
+    width: 990px;
+    margin: 0 auto;
+    
+    .cart_top{
+        height: 120px;
+        width: 990px;
+        float: left;
+        .mt25{
+            margin-top:25px ;
+        }
+        .mt30{
+            margin-top: 30px;
+        }
+        .m15{
+            margin-right: 15px;
+        }
+    }
+}
+.cartMain{
+    .cart_tit_n{
+        
+        height: 35px;
+        width: 1200px;
+        .cart_word{
+            font: 400 16px/35px "Microsoft YaHei";
+            float: left;
+        }
+    }
+    .cart_alltit,.cart_alltit1{
+        
+        width: 100%;
+        margin: 50px 0 0;
+        background-color: #ff9000;
+        margin-bottom: -3px;
+        margin-top: 10px;
+        p{
+            float: left;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 700;
+            line-height: 36px;
+            padding: 0 10px;
+            border-radius: 100px;
+        }
+    }
+    .cartBox{
+        .shop_info{
+            .shop_name{
+               ul{
+                   li{
+                       float: left;
+                   }
+               } 
+            }
+        }
+    }
+    
+}
+.tuijian{
+    width: 1200px;
+    margin: 0 auto;
+    h2{
+        height: 30px;
+        width: 1200px;
+        
+        border-bottom: 1px solid #dbdbdb;
+        position: relative;
+        top: 1px;
+        z-index: 1;
+        
+        
+    }
+    ul{
+        padding-top: 25px;
+        height: 260px;
+        li{
+            width: 150px;
+            float: left;
+            height: 238px;
+            margin-right: 60px;
+            display: inline;
+            .pic{
+                
+                width: 150px;
+                height: 150px;
+                margin-bottom: 5px;
+                display: block;
+                .img150150{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            .name{
+                overflow: hidden;
+                line-height: 18px;
+                height: 35px;
+                a{
+                    color: #333;
+                    .cleb6100{
+                        color: #eb6100!important;
+                    }
+                }
+            }
+            .price{
+                font: 800 14px/36px "Microsoft YaHei";
+                color: #ff9000;
+                margin-top: 6px;
+                margin-bottom: 6px;
+            }
+            .butn3{
+                width: 77px;
+                height: 21px;
+               
+                background: url(../images/buttonall_c75620fd.png) no-repeat 0 -44px;
+                border: 0;
+                cursor: pointer;
+            }
+        }
+    }
+    .tui_tab{
+        width: 950px;
+        height: 300px;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        padding: 0 20px;
+        
+    }
+}
+.del11{
+    position: absolute;
+    top:0px;
+    left: 30px;
+    a{
+        display: block;
+        width: 60px;height: 20px;
+    }
+}

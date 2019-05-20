@@ -1,0 +1,225 @@
+@charset "UTF-8";
+.zhangYang-menu-auto-left-pd {
+  display: none; }
+
+.box1200 {
+  height: 800px; }
+  .box1200 .box_top {
+    margin: 20px 0; }
+    .box1200 .box_top a {
+      color: #999;
+      font: 400 16px/19px "Microsoft YaHei"; }
+    .box1200 .box_top span {
+      color: #999;
+      font: 400 16px/19px "Microsoft YaHei"; }
+    .box1200 .box_top i {
+      color: #999;
+      font: 400 16px/19px "Microsoft YaHei"; }
+  .box1200 form ul {
+    margin: 10px 0 0 0; }
+  .box1200 form .register15 {
+    border: 1px solid #ddd;
+    width: 462px;
+    height: 740px;
+    float: left; }
+    .box1200 form .register15 .title15_qq {
+      margin: 40px auto;
+      width: 400px; }
+      .box1200 form .register15 .title15_qq p {
+        font: 400 22px/19px "Microsoft YaHei"; }
+    .box1200 form .register15 .register_box, .box1200 form .register15 .psw, .box1200 form .register15 .psw2 {
+      float: left;
+      width: 400px;
+      height: 44px;
+      position: relative;
+      border: 1px solid #ddd; }
+      .box1200 form .register15 .register_box dl, .box1200 form .register15 .psw dl, .box1200 form .register15 .psw2 dl {
+        float: left;
+        width: 398px;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        padding: 7px 0;
+        position: relative;
+        z-index: 0; }
+        .box1200 form .register15 .register_box dl p, .box1200 form .register15 .psw dl p, .box1200 form .register15 .psw2 dl p {
+          float: left;
+          width: 100px;
+          text-align: center;
+          border-right: 1px solid #ddd;
+          font: 400 14px/28px "Microsoft YaHei";
+          margin-right: 10px;
+          display: inline; }
+        .box1200 form .register15 .register_box dl s, .box1200 form .register15 .psw dl s, .box1200 form .register15 .psw2 dl s {
+          position: absolute;
+          top: 8px;
+          right: 10px;
+          width: 25px;
+          height: 25px;
+          background: url(../images/login_ico_ec3070b7.png) no-repeat;
+          background-position: 0 -102px; }
+        .box1200 form .register15 .register_box dl input, .box1200 form .register15 .psw dl input, .box1200 form .register15 .psw2 dl input {
+          float: right;
+          font: 400 14px/28px "Microsoft YaHei";
+          width: 240px;
+          height: 28px;
+          border: 0; }
+        .box1200 form .register15 .register_box dl .prompt, .box1200 form .register15 .psw dl .prompt, .box1200 form .register15 .psw2 dl .prompt {
+          position: absolute;
+          top: -20px;
+          left: 0; }
+        .box1200 form .register15 .register_box dl .tishiPsw, .box1200 form .register15 .psw dl .tishiPsw, .box1200 form .register15 .psw2 dl .tishiPsw {
+          font-size: 12px;
+          color: red;
+          position: absolute;
+          top: -20px;
+          left: 0;
+          display: none; }
+        .box1200 form .register15 .register_box dl .tishiPsw2, .box1200 form .register15 .psw dl .tishiPsw2, .box1200 form .register15 .psw2 dl .tishiPsw2 {
+          font-size: 12px;
+          color: red;
+          position: absolute;
+          top: -20px;
+          left: 0;
+          display: none; }
+    .box1200 form .register15 .silder .verification {
+      position: relative; }
+      .box1200 form .register15 .silder .verification p {
+        float: left;
+        display: inline-block;
+        width: 90px;
+        height: 44px;
+        border: 1px solid #ddd;
+        font: 400 14px/28px "Microsoft YaHei";
+        text-align: center;
+        line-height: 44px; }
+      .box1200 form .register15 .silder .verification .slidBox {
+        width: 300px;
+        height: 44px;
+        border: 1px solid #ddd;
+        font: 400 14px/28px "Microsoft YaHei";
+        color: #fff;
+        background: #999;
+        float: left;
+        margin: 0 0 0 10px;
+        text-align: center;
+        line-height: 44px;
+        position: relative;
+        z-index: 12; }
+      .box1200 form .register15 .silder .verification .logBtn span {
+        position: absolute;
+        z-index: 13;
+        top: 0;
+        left: 101px;
+        width: 50px;
+        height: 42px;
+        border: 1px solid #8ab800;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        background: url(../images/login_ico_ec3070b7.png?20112415) no-repeat #fff;
+        background-position: 12px -567px; }
+      .box1200 form .register15 .silder .verification .abc {
+        width: 245px;
+        height: 44px;
+        background: green;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        z-index: 1; }
+      .box1200 form .register15 .silder .verification .tishi {
+        display: none;
+        width: 100px;
+        height: 12px;
+        font-size: 10px;
+        color: red;
+        position: absolute;
+        bottom: -65px;
+        right: 0px; }
+    .box1200 form .register15 .code {
+      float: left; }
+      .box1200 form .register15 .code div {
+        border: 1px solid #ddd;
+        float: left;
+        height: 44px;
+        padding: 7px 0; }
+        .box1200 form .register15 .code div p {
+          float: left;
+          width: 100px;
+          text-align: center;
+          border-right: 1px solid #ddd;
+          font: 400 14px/28px "Microsoft YaHei";
+          margin-right: 10px;
+          display: inline; }
+        .box1200 form .register15 .code div input {
+          float: left;
+          font: 400 14px/28px "Microsoft YaHei";
+          width: 135px;
+          height: 28px;
+          border: 0; }
+      .box1200 form .register15 .code .codeBtn {
+        width: 130px;
+        height: 42px;
+        border: 1px solid #8ab700;
+        font: 400 14px/28px "Microsoft YaHei";
+        line-height: 42px;
+        text-align: center;
+        color: #8ab700;
+        margin: 0 0 0 20px;
+        cursor: pointer; }
+    .box1200 form .register15 .protocol {
+      float: left; }
+      .box1200 form .register15 .protocol > p {
+        float: left;
+        font: 400 14px/20px "Microsoft YaHei";
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative; }
+        .box1200 form .register15 .protocol > p a {
+          color: #8ab700;
+          cursor: pointer; }
+      .box1200 form .register15 .protocol .logBtns {
+        float: left; }
+        .box1200 form .register15 .protocol .logBtns > a {
+          display: block;
+          width: 400px;
+          height: 58px;
+          text-align: center;
+          font: 400 24px/58px "Microsoft YaHei";
+          color: #fff;
+          background: #bbb;
+          text-decoration: none;
+          cursor: pointer; }
+        .box1200 form .register15 .protocol .logBtns p {
+          text-align: right;
+          font: 400 14px/20px "Microsoft YaHei"; }
+          .box1200 form .register15 .protocol .logBtns p a {
+            color: #8ab700;
+            text-decoration: none;
+            cursor: pointer; }
+    .box1200 form .register15 .other li {
+      font: 400 14px/50px "Microsoft YaHei"; }
+      .box1200 form .register15 .other li em a {
+        display: inline-block;
+        width: 88px;
+        height: 32px;
+        font: 400 12px/30px "宋体";
+        color: #666;
+        padding: 0 6px 0 32px;
+        border: 1px solid #eaeaea;
+        white-space: nowrap;
+        width: auto;
+        float: left;
+        background: url(../images/login_ico_ec3070b7.png) no-repeat #fbfbfb;
+        text-decoration: none; }
+      .box1200 form .register15 .other li em:first-child a {
+        background-position: 6px -197px; }
+      .box1200 form .register15 .other li em:first-child + em a {
+        background-position: 6px -227px; }
+      .box1200 form .register15 .other li em:first-child + em + em a {
+        background-position: 6px -257px; }
+      .box1200 form .register15 .other li em:first-child + em + em + em a {
+        background-position: 6px -537px; }
+      .box1200 form .register15 .other li em:first-child + em + em + em + em a {
+        background-position: 6px -757px; }
+      .box1200 form .register15 .other li em:first-child + em + em + em + em + em a {
+        background-position: 6px -807px; }
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,294 @@
+.zhangYang-menu-auto-left-pd{
+    display: none;
+}
+
+.box1200{
+    height: 800px;
+    .box_top{
+        margin: 20px 0;
+        a{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+        span{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+        i{
+            color: #999;
+            font:400 16px/19px "Microsoft YaHei";
+        }
+    }
+    form{
+        
+        
+        ul{
+            margin: 10px 0 0 0;
+        }
+        .register15{
+            border:1px solid #ddd;
+            width: 462px;
+            height: 740px;
+            float: left;
+            
+            .title15_qq{
+                margin:40px auto ;
+                width: 400px;
+                p{
+                    font:400 22px/19px "Microsoft YaHei";
+                }
+            }
+            .register_box,.psw,.psw2{
+                float: left;
+                width: 400px;
+                height: 44px;
+                position: relative;
+                border:1px solid #ddd;
+                dl{
+                    float: left;
+                    width: 398px;
+                    border: 1px solid #ddd;
+                    margin-bottom: 30px;
+                    padding: 7px 0;
+                    position: relative;
+                    z-index: 0;
+                     p{
+                        float: left;
+                        width: 100px;
+                        text-align: center;
+                        border-right: 1px solid #ddd;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        margin-right: 10px;
+                        display: inline;
+                    }
+                    s{
+                        position: absolute;
+                        top: 8px;
+                        right: 10px;
+                        width: 25px;
+                        height: 25px;
+                        background: url(../images/login_ico_ec3070b7.png) no-repeat;
+                            background-position: 0 -102px;
+                    }
+                    input{
+                        float: right;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        width: 240px;
+                        height: 28px;
+                        border: 0;
+                    }
+                    .prompt{
+                        position:absolute;
+                        top:-20px;
+                        left: 0;
+                    }
+                    .tishiPsw{
+                        font-size: 12px;
+                        color: red;
+                        position: absolute;
+                        top:-20px;
+                        left: 0;
+                        display: none;
+                    }
+                    .tishiPsw2{
+                        font-size: 12px;
+                        color: red;
+                        position: absolute;
+                        top:-20px;
+                        left: 0;
+                        display: none;
+                    }
+                }
+               
+                
+            }
+            .silder{
+                .verification{
+                    position: relative;
+                    p{
+                        float: left;
+                        display: inline-block;
+                        width: 90px;
+                        height: 44px;
+                        border: 1px solid #ddd;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        text-align: center;
+                        line-height: 44px;
+                    }
+                   
+                    .slidBox{
+                        width: 300px;
+                        height: 44px;
+                        border: 1px solid #ddd;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        color: #fff;
+                        background: #999;
+                        float: left;
+                        margin: 0 0 0 10px;
+                        text-align: center;
+                        line-height: 44px;
+                        position: relative;
+                        z-index: 12;
+                    }
+                    
+                    .logBtn{
+                        
+                        span{
+                            position: absolute;
+                            z-index: 13;
+                            top: 0;
+                            left: 101px;
+                            width: 50px;
+                            height: 42px;
+                            border: 1px solid #8ab800;
+                            box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+                            background:url(../images/login_ico_ec3070b7.png?20112415) no-repeat #fff;
+                            background-position: 12px -567px;
+                        }
+                    }
+                    .abc{
+                        width: 245px;
+                        height: 44px;
+                        background: green;
+                        position: absolute;
+                        top:0px;
+                        left: 100px;
+                        z-index: 1;
+                    }
+                    .tishi{
+                    display: none;
+                    width: 100px;
+                    height: 12px;
+                    font-size: 10px;
+                    color: red;
+                    position: absolute;
+                    bottom:-65px;
+                    right: 0px;
+                }
+                }
+                
+            }
+            .code{
+                float: left;
+                div{
+                    border: 1px solid #ddd;
+                    float: left;
+                    height: 44px;
+                    padding:7px 0 ;
+                    p{
+                        float: left;
+                        width: 100px;
+                        text-align: center;
+                        border-right: 1px solid #ddd;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        margin-right: 10px;
+                        display: inline;
+                        
+                    }
+                    input{
+                        float: left;
+                        font: 400 14px/28px "Microsoft YaHei";
+                        width: 135px;
+                        height: 28px;
+                        border: 0;
+                        
+                    }
+                }
+                .codeBtn{
+//                  display: inline-block;
+                    width: 130px;
+                    height: 42px;
+                     border: 1px solid #8ab700;
+                     font:  400 14px/28px "Microsoft YaHei";
+                     line-height: 42px;
+                     text-align: center;
+                     color: #8ab700;
+                     margin: 0 0 0 20px;
+                     cursor: pointer;
+                }
+                
+            }
+            .protocol{
+                float: left;
+                >p{
+                    
+                    float: left;
+                    font: 400 14px/20px "Microsoft YaHei";
+                    width: 100%;
+                    margin-bottom: 20px;
+                    position: relative;
+                    a{
+                        color:#8ab700 ;
+                        cursor: pointer;
+                    }
+                }
+                .logBtns{
+                    float: left;
+                    >a{
+                        display:block;
+                        width: 400px;
+                        height: 58px;
+                        text-align: center;
+                        font: 400 24px/58px "Microsoft YaHei";
+                        color: #fff; 
+                        background: #bbb;  
+                        text-decoration: none;  
+                            cursor: pointer;
+                    }
+                    p{
+                        text-align: right;
+                        font: 400 14px/20px "Microsoft YaHei";
+                        a{
+                            color:#8ab700 ;
+                            text-decoration: none;
+                                cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .other{
+                li{
+                    font: 400 14px/50px "Microsoft YaHei";
+                    em{
+                        a{
+                            display: inline-block;
+                            width: 88px;
+                            height: 32px;
+                            font: 400 12px/30px "宋体";
+                            color: #666;
+                            padding: 0 6px 0 32px;
+                            border: 1px solid #eaeaea;
+                            white-space: nowrap;
+                            width: auto;
+                            float: left;
+                            background: url(../images/login_ico_ec3070b7.png) no-repeat #fbfbfb;
+                            text-decoration: none;
+                            
+                        }
+                        
+                        
+                    }
+                    em:first-child a{
+                        background-position: 6px -197px;
+                    }
+                    em:first-child+em a{
+                         background-position: 6px -227px;
+                    }
+                    em:first-child+em+em a{
+                         background-position: 6px -257px;
+                    }  
+                    em:first-child+em+em+em a{
+                         background-position: 6px -537px;
+                    }
+                    em:first-child+em+em+em+em a{
+                         background-position: 6px -757px;
+                    }
+                    em:first-child+em+em+em+em+em a{
+                         background-position: 6px -807px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

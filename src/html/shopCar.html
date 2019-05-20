@@ -1,0 +1,328 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>购物车</title>
+<script src="../js/jquery.min.js"></script>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/carts.css">
+<link rel="stylesheet" href="../css/shopCar.css">
+<link rel="stylesheet" href="../css/index.css">
+<script type="text/javascript">
+			$(function(){
+				$("#header").load('head.html')
+				$("#right").load('bar.html')
+				$("#footer").load('foot.html')
+			});
+			
+		</script>
+</head>
+<body>
+	<div id="header" class="clearfix">
+		
+	</div>
+	<div class="box990 clearfix">
+        <div class="cart_top ">
+            <div class="mt25 fl">
+                <a href="###">
+                    <img src="../images/logo_new_d634af2f.gif" width="136" height="54" alt="本来生活网">
+                </a>
+            </div>
+            <div class="mt30 fr mr15">
+                <img src="../images/cart08.gif" width="550" height="46" alt="">
+            </div>
+        </div>
+    </div>
+	<section class="cartMain">
+		<div class="cart_tit_n">
+			<div id="" class="cart_word">
+				我的购物车
+			</div>
+		</div>
+		
+		<div class="cartMain_hd">
+			<ul class="order_lists cartTop">
+				<li class="list_chk">
+					<!--所有商品全选-->
+					<input type="checkbox" id="all" class="whole_check">
+					<label for="all"></label>
+					全选
+					<div class="del11"><a href="javascript:;">删除</a></div>
+				</li>
+				<li class="list_con">商品信息</li>
+				<li class="list_info">商品参数</li>
+				<li class="list_price">单价</li>
+				<li class="list_amount">数量</li>
+				<li class="list_sum">金额</li>
+				<li class="list_op">操作</li>
+			</ul>
+		</div>
+		<div class="cart_alltit clearfix">
+			<p>冷链配</p>
+			<em></em>
+		</div>
+		<div class="cartBox">
+			<div class="shop_info">
+				<div class="all_check">
+					<!--店铺全选-->
+					<input type="checkbox" id="shop_a" class="shopChoice">
+					<label for="shop_a" class="shop"></label>
+				</div>
+				<div class="shop_name">
+					<ul class="">
+						<li class="">全选</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="order_content">
+				<ul class="order_lists">
+					<li class="list_chk">
+						<input type="checkbox" id="checkbox_2" class="son_check">
+						<label for="checkbox_2"></label>
+					</li>
+					<li class="list_con">
+						<div class="list_img"><a href="javascript:;"><img src="../images/6c9c0f2e-0b0b-407a-9a4b-0eb11798dff9.jpg" alt=""></a></div>
+						<div class="list_text"><a href="javascript:;">海南水仙芒4-5个装 （850g以上）</a></div>
+					</li>
+					<li class="list_info">
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥980</p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<a href="javascript:;" class="reduce reSty">-</a>
+							<input type="text" value="1" class="sum">
+							<a href="javascript:;" class="plus">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<p class="sum_price">￥980</p>
+					</li>
+					<li class="list_op">
+						<p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+					</li>
+				</ul>
+				<!--<ul class="order_lists">
+					<li class="list_chk">
+						<input type="checkbox" id="checkbox_3" class="son_check">
+						<label for="checkbox_3"></label>
+					</li>
+					<li class="list_con">
+						<div class="list_img"><a href="javascript:;"><img src="../images/6c9c0f2e-0b0b-407a-9a4b-0eb11798dff9.jpg" alt=""></a></div>
+						<div class="list_text"><a href="javascript:;">海南水仙芒4-5个装 （850g以上）</a></div>
+					</li>
+					<li class="list_info">
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥780</p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<a href="javascript:;" class="reduce reSty">-</a>
+							<input type="text" value="1" class="sum">
+							<a href="javascript:;" class="plus">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<p class="sum_price">￥780</p>
+					</li>
+					<li class="list_op">
+						<p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+					</li>
+				</ul>-->
+				<!--<ul class="order_lists">
+					<li class="list_chk">
+						<input type="checkbox" id="checkbox_6" class="son_check">
+						<label for="checkbox_6"></label>
+					</li>
+					<li class="list_con">
+						<div class="list_img"><a href="javascript:;"><img src="../images/6c9c0f2e-0b0b-407a-9a4b-0eb11798dff9.jpg" alt=""></a></div>
+						<div class="list_text"><a href="javascript:;">海南水仙芒4-5个装 （850g以上）</a></div>
+					</li>
+					<li class="list_info">
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥180</p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<a href="javascript:;" class="reduce reSty">-</a>
+							<input type="text" value="1" class="sum">
+							<a href="javascript:;" class="plus">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<p class="sum_price">￥180</p>
+					</li>
+					<li class="list_op">
+						<p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+					</li>
+				</ul>-->
+			</div>
+		</div>
+		<div class="cart_alltit1 clearfix">
+			<p>常温配</p>
+			<em></em>
+		</div>
+		<div class="cartBox cartBox1">
+			<div class="shop_info">
+				
+				<div class="all_check">
+					<!--店铺全选-->
+					<input type="checkbox" id="shop_b" class="shopChoice">
+					<label for="shop_b" class="shop"></label>
+				</div>
+				<div class="shop_name">
+					全选
+				</div>
+				
+			</div>
+			<div class="order_content">
+				<ul class="order_lists">
+					<li class="list_chk">
+						<input type="checkbox" id="checkbox_4" class="son_check">
+						<label for="checkbox_4"></label>
+					</li>
+					<li class="list_con">
+						<div class="list_img"><a href="javascript:;"><img src="../images/6c9c0f2e-0b0b-407a-9a4b-0eb11798dff9.jpg" alt=""></a></div>
+						<div class="list_text"><a href="javascript:;">海南水仙芒4-5个装 （850g以上）</a></div>
+					</li>
+					<li class="list_info">
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥1980</p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<a href="javascript:;" class="reduce reSty">-</a>
+							<input type="text" value="1" class="sum">
+							<a href="javascript:;" class="plus">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<p class="sum_price">￥1980</p>
+					</li>
+					<li class="list_op">
+						<p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+					</li>
+				</ul>
+				<ul class="order_lists">
+					<li class="list_chk">
+						<input type="checkbox" id="checkbox_5" class="son_check">
+						<label for="checkbox_5"></label>
+					</li>
+					<li class="list_con">
+						<div class="list_img"><a href="javascript:;"><img src="../images/6c9c0f2e-0b0b-407a-9a4b-0eb11798dff9.jpg" alt=""></a></div>
+						<div class="list_text"><a href="javascript:;">美国新奇士黑标晚脐6个装 大果（1.2kg以上）</a></div>
+					</li>
+					<li class="list_info">
+						<p>橙子</p>
+						<p>加州脐橙小太阳，元气满满添活力！</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥480</p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<a href="javascript:;" class="reduce reSty">-</a>
+							<input type="text" value="1" class="sum">
+							<a href="javascript:;" class="plus">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<p class="sum_price">￥480</p>
+					</li>
+					<li class="list_op">
+						<p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+		
+		<!--底部-->
+		<div class="bar-wrapper">
+			<div class="bar-right">
+				<div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+				<div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+				<div class="calBtn"><a href="javascript:;">结算</a></div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="model_bg"></section>
+	<section class="my_model">
+		<p class="title">删除宝贝<span class="closeModel">X</span></p>
+		<p>您确认要删除该宝贝吗？</p>
+		<div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+	</section>
+	<div class="tuijian">
+		<h2 id="tablist">
+        
+	        <a href="javascript:;" hidefocus="true" num="2" style="display: none;">每日最新鲜</a>       
+	        <a href="javascript:;" hidefocus="true" num="4" class="on">最近浏览商品</a> 
+	        <a href="javascript:;" hidefocus="true" num="5" class="">收藏夹</a>
+	        <a href="javascript:;" hidefocus="true" num="6" class="">已删除商品</a>
+	    </h2>
+	    <ul data-type="tabdiv" num="1" class="tui_tab" style="display: none; ">
+        
+    	</ul>
+    	<ul data-type="tabdiv" num="2" style="display: none;">
+    	</ul>
+    	<ul data-type="tabdiv" num="3" style="display: none;">
+	        <div class="mb10 mt10 tac" style="padding-top: 10px; text-align: center; height: 200px;">暂无推荐信息</div>
+	    </ul>
+	    <ul data-type="tabdiv" num="4" style="">                  
+	    	<li class="" style="margin-right:59px">              
+	    		<a href="https://www.benlai.com/items-87922.html?sysno=363985" target="_blank" title="美国新奇士黑标晚脐6个装 大果（1.2kg以上）" class="pic">            
+	    			<img class="img150150" src="//image6.benlailife.com//ProductImages/000/000/363/985/medium/27fa7fbd-791e-41ff-9e18-e6d5060f9ea9.jpg?imageView2/2/format/webp" style="display: inline; opacity: 1;">        </a>        <div class="name">                        
+				<a href="https://www.benlai.com/items-87922.html?sysno=363985" target="_blank" title="美国新奇士黑标晚脐6个装 大果（1.2kg以上）">                        美国新奇士黑标晚脐6个装 大果（1.2kg以上）
+				<font class="cleb6100 ml5">加州脐橙小太阳，元气满满添活力！</font>
+				</a>
+	    			</div>        
+	    			<div class="price">                        ￥39.00                    
+	    			</div>        
+	    			<input type="hidden" value="363985" class="hotid">  
+	    			<div class="butn"><input type="button" class="butn3" value="" data-type="add" data-productid="363985" data-producttype="0" name="btnbutton" id="btnRecommentList363985"></div>
+	    	</li>
+	    	<li class="" style="margin-right:59px">              <a href="https://www.benlai.com/items-62066.html?sysno=283206" target="_blank" title="佳沛新西兰阳光金奇异果 原箱3.3kg（22头）" class="pic">
+	    		<img class="img150150" src="//image.benlailife.com//ProductImages/000/000/283/206/medium/c55a7f67-7cac-4711-965c-4e9a2857be2d.jpg?imageView2/2/format/webp" style="display: inline; opacity: 1;">        
+	    	</a>        
+	    	<div class="name">                        
+	    		<a href="https://www.benlai.com/items-62066.html?sysno=283206" target="_blank" title="佳沛新西兰阳光金奇异果 原箱3.3kg（22头）">                        佳沛新西兰阳光金奇异果 原箱3.3kg（22头）
+	    			<font class="cleb6100 ml5">真佳沛，在本来</font>
+	    		</a>
+	    	</div>        
+	    	<div class="price">                        ￥219.00                    
+	    	</div>        
+	    	<input type="hidden" value="283206" class="hotid">        
+	    		<div class="butn">
+	    			<input type="button" class="butn3" value="" data-type="add" data-productid="283206" data-producttype="0" name="btnbutton" id="btnRecommentList283206">
+	    		</div>
+	    	</li>        
+	    </ul>
+	    	
+	</div>
+	<div id="footer" class="clearfix">
+		
+	</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/shopCar.js"></script>
+<script src="../js/carts.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,751 @@
+.zhangYang-menu-auto-left-pd{
+    display: none;
+}
+
+.xiangqing{
+    .listBox{
+        width: 1200px;
+        margin: 0 auto;
+        clear: both;
+        .path15{
+            width: 1200px;
+            float: left;
+            color: #959595;
+            line-height: 40px;
+            a{
+               color: #959595;
+            }
+        }
+    }
+    .good15_box{
+        width: 596px;
+        float: left;
+        >dl{
+            width: 84px;
+            float: left;
+            dt{
+                a{
+                    width: 82px;
+                    height: 15px;
+                    float: left;
+                    text-align: center;
+                    border: 1px solid #c9c9c9;
+                    background: url(../images/detail_ico2_aee48cd9.png) 33px 5px no-repeat;
+                
+                }
+                #id2{
+                     background: url(../images/detail_ico2_aee48cd9.png) 33px -21px no-repeat;
+                }
+            }
+            dd{
+                width: 84px;
+                float: left;
+                margin-top: 8px;
+                height: 458px;
+                overflow: hidden;
+                a{
+                    border: 1px solid #8ab800!important;
+                    display: block;
+                    margin-bottom: 8px;
+                    img{
+                        width: 82px;
+                        height: 82px;
+                    }
+                }
+            }
+        }
+        .magnify{
+            float: left;
+        }
+        .good15_number{
+            float: left;
+            width: 270px;
+            line-height: 45px;
+            color: #535353;
+        }
+        .good15_collect{
+            float: right;
+            margin: 0 10px 0 15px;
+            display: inline;
+            a{
+                background: url(../images/detail_ico_e7eb6dd1.gif) 0 -119px no-repeat;
+                line-height: 45px;
+                color: #535353;
+                padding-left: 20px;
+                display: block;
+            }
+        }
+        .good15_share{
+            float: right;
+            width: 87px;
+            margin-top: 6px;
+            background-color: #fff;
+            dl{
+                position: relative;
+                z-index: 80;
+                dt{
+                    height: 30px;
+                    border-top: 1px solid #fff;
+                    border-left: 1px solid #fff;
+                    border-right: 1px solid #fff;
+                    line-height: 30px;
+                        color: #535353;
+                    background: url(../images/n_icon01_c2ce2a81.png) 69px 12px no-repeat;          s{
+                        background: url(../images/detail_ico_e7eb6dd1.gif) 0 -100px no-repeat;
+                        width: 16px;
+                        height: 16px;
+                        float: left;
+                        margin: 7px 5px 0 6px;
+                        display: block;
+                    }
+                }
+                dd{
+                    position: absolute;
+                    top: 31px;
+                    left: 0;
+                    background-color: #fff;
+                    border-bottom: 1px solid #e5e5e5;
+                    border-left: 1px solid #e5e5e5;
+                    border-right: 1px solid #e5e5e5;
+                    width: 85px;
+                    padding: 3px 0 10px;
+                    display: none;
+                    a{
+                        margin-left: 7px;
+                        img{
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+            dl:hover dt{
+                border-top: 1px solid #e5e5e5;
+                border-left: 1px solid #e5e5e5;
+                border-right: 1px solid #e5e5e5;
+                background: url(../images/n_icon02_06fa5740.png) 69px 12px no-repeat;
+            }
+             dl:hover dd{
+                 display: block;
+             }
+        }
+        
+        
+        .small_box {
+                
+            position: relative;
+            padding: 0;
+            cursor: pointer;
+            float: right;
+            width: 500px;
+            height: 500px;
+            border: 1px solid rgb(201, 201, 201);
+            overflow: hidden;
+            margin-top: 0px;
+            img{
+                
+                width: 500px;
+                height: 500px;
+                overflow: hidden;
+                float: left;
+                z-index: 777;
+            }
+        }
+       
+        .small_box .mask {
+            position:absolute;
+            width:100%;
+            height:100%;
+            background:rgba(0,0,0,0.5);
+            opacity:0;
+            z-index:2;
+            cursor:move;
+        }
+        .small_box .float_layer {
+            position:absolute;
+            width:150px;
+            height:150px;
+            background:rgba(0,0,0,0.5);
+            display:none;
+        }
+        .big_box {
+            z-index: 1000;
+            position: absolute;
+           
+            width: 325px;
+            height: 325px;
+            background: #fff;
+            border: 1px solid #CCC;
+            display: none;
+            text-align: center;
+            overflow: hidden;
+            top: 428px;
+            left: 683.5px;
+            width: 500px;
+            height: 500px;
+            display: block;
+        }
+        .big_box img {
+            position:absolute;
+            width: 1360px;
+            height: 1360px;
+        }
+    }
+    .good15_intro{
+        float: right;
+        width: 570px;
+        height: 550px;
+        .intro_name{
+            float: left;
+            width: 570px;
+            height: auto!important;
+            height: 68px;
+            min-height: 68px;
+            border-bottom: 1px solid #e0e0e0;
+            h1{
+                font: 800 18px/34px "Microsoft YaHei";
+                color: #4c4c4c;
+            }
+            p{
+                font-size: 14px;
+                color: #ff6900;
+                line-height: 26px;
+            }
+        }
+        .intro_sales{
+            float: left;
+            width: 570px;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 18px 0;
+            .intro_price{
+                float: left;
+                width: 570px;
+                margin: 0 0 18px;
+                p{
+                    float: left;
+                }
+                .drop{
+                    color: #fff;
+                    font-size: 14px;
+                    background-color: #ff6900;
+                    line-height: 26px;
+                    padding: 0 8px;
+                    margin-right: 10px;
+                }
+                .price{
+                    font: 800 26px/26px "Microsoft YaHei";
+                    color: #ff6900;
+                    span{
+                        color: #999;
+                        text-decoration: line-through;
+                        font-size: 14px;
+                    }
+                }
+                .notice{
+                    margin: 3px 0 0 20px;
+                    a{
+                        background: url(../images/detail_ico_e7eb6dd1.gif) 10px -63px no-repeat;
+                        border: 1px solid #e7e7e7;
+                        line-height: 18px;
+                        color: #4c4c4c;
+                        padding: 0 10px 0 25px;
+                        display: block;
+                    }
+                }
+            }
+            .intro_app{
+                float: left;
+                dl{
+                    float: left;
+                    width: 125px;
+                    height: 26px;
+                    position: relative;
+                    z-index: 10;
+                    dd{
+                        position: absolute;
+                        z-index: 20;
+                        left: 0;
+                        top: 26px;
+                        width: 220px;
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                        text-align: center;
+                        padding-bottom: 10px;
+                        display: none;
+                        p{
+                            background-color: #f4f4f4;
+                            line-height: 30px;
+                            
+                        }
+                        em{
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                        img{
+                            width: 220px;
+                        }
+                    }
+                    dt{
+                        a{
+                            float: left;
+                            width: 97px;
+                            height: 26px;
+                            background: url(../images/app_ico_23ab52d9.png) 0 0 no-repeat #ff6900;
+                            font-size: 14px;
+                            color: #fff;
+                            padding-left: 28px;
+                            line-height: 26px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .good15_norm{
+            float: left;
+            width: 570px;
+            margin-top: 15px;
+        }
+        .good15_buy{
+            float: left;
+            width: 570px;
+            margin-bottom: 20px;
+            dl{
+                float: left;
+                width: 570px;
+                height: 52px;
+                dt{
+                    width: 75px;
+                    float: left;
+                    margin-right: 15px;
+                    input{
+                        border: 1px solid #cdcdcd;
+                        width: 54px;
+                        height: 50px;
+                        font: 400 24px/48px "Microsoft YaHei";
+                        color: #626262;
+                        text-align: center;
+                        float: left;
+                    }
+                    a{
+                        display: block;
+                        width: 19px;
+                        height: 25px;
+                        float: left;
+                    }
+                    a.up{
+                        background:url(../images/detail_ico2_aee48cd9.png) 0 -52px no-repeat;
+                    }
+                    a.down{
+                        background: url(../images/detail_ico2_aee48cd9.png) -20px -52px no-repeat;
+                    }
+                }
+                dd{
+                    float: left;
+                    .buy_btn{
+                        float: left;
+                        margin-right: 15px;
+                        a{
+                            width: 182px;
+                            height: 52px;
+                            display: block;
+                            background: url(../images/detailsp_btn_c8171162.gif) no-repeat;
+                        }
+                    }
+                    .buy_evaluate{
+                        color: #4c4c4c;
+                        line-height: 52px;
+                        float: left;
+                    }
+                }
+            }
+            .bgright{
+                float: left!important;
+                display: inline;
+                .number{
+                    
+                }
+            }
+            ul{
+                margin: 10px 20px 0 0;
+                float: left;
+                li{
+                    line-height: 24px;
+                    border: 1px solid #f1e1d3;
+                    background-color: #fff5ec;
+                    color: #616261;
+                    padding: 0 8px;
+                    position: relative;
+                    z-index: 0;
+                    float: left;
+                }
+            }
+        }
+        .good15_today{
+            float: left;
+            width: 570px;
+            padding-bottom: 25px;
+            dl{
+                float: left;
+                margin-right: 10px;
+                position: relative;
+                z-index: 0;
+                dt{
+                    background-color: #91c103;
+                    border: 1px solid #91c103;
+                    float: left;
+                    color: #fff;
+                    line-height: 23px;
+                    padding-right: 3px;
+                    cursor: pointer;
+                    img{
+                        float: left;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .good15_prompt{
+            float: left;
+            width: 570px;
+            padding-bottom: 20px;
+            line-height: 18px;
+        }
+    }
+    .list15_record{
+        width: 208px;
+        float: left;
+        border-top: 2px solid #8ab700;
+        border-left: 1px solid #efefe8;
+        border-right: 1px solid #efefe8;
+        margin-bottom: 15px;
+        dl{
+            dt{
+                background-color: #fafafa;
+                color: #6b6b56;
+                font: 400 16px/35px "微软雅黑";
+                padding-left: 22px;
+                a{
+                    float: right;
+                    border: 1px solid #8ab700;
+                    font: 400 12px/18px "微软雅黑";
+                    color: #8ab700;
+                    display: inline-block;
+                    padding: 0 8px;
+                    margin: 7px 10px 0 0;
+                }
+            }
+            dd{
+                border-bottom: 1px solid #efefe8;
+                padding: 10px;
+                width: 188px;
+                float: left;
+                p{
+                    
+                    a{
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            float: left;
+                            margin-right: 5px;
+                        }
+                    }
+                    
+                }
+                .name a{
+                    float: right;
+                    width: 113px;
+                    height: 36px;
+                    font: 400 12px/18px "Microsoft YaHei";
+                    color: #3e4141;
+                    text-overflow: clip;
+                    display: block;
+                    overflow: hidden;
+                    margin-top: 5px;
+                }
+                .price{
+                    color: #ff6900;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    .box980{
+        width: 980px;
+        .good15_compose{
+            dl{
+                dt{
+                    background-color: #fafafa;
+                    border-bottom: 1px solid #efefe7;
+                    border-left: 1px solid #efefe7;
+                    border-right: 1px solid #efefe7;
+                    border-top: 2px solid #8ab700;
+                    height: 33px;
+                    em{
+                        float: left;
+                        position: relative;
+                        z-index: 70;
+                        height: 34px;
+                        width: 122px;
+                        a{
+                            float: left;
+                            position: relative;
+                            z-index: 70;
+                            height: 34px;
+                            width: 122px;
+                            color: #79a000;
+                            line-height: 44px;
+                            padding: 0 4px 0 0;
+                            display: block;
+                            position: absolute;
+                            top: -6px;
+                            left: -1px;
+                            width: 118px;
+                            text-align: center;
+                            height: 44px;
+                            overflow: hidden;
+                            text-overflow: clip;
+                        }
+                    }
+                }
+                dd{
+                    border-bottom: 1px solid #efefe7;
+                    border-left: 1px solid #efefe7;
+                    border-right: 1px solid #efefe7;
+                    float: left;
+                    width: 978px;
+                    .sku_box{
+                        overflow: hidden;
+                        height: 230px;
+                        width: 640px;
+                        margin: 20px 0 20px 20px;
+                        overflow-x: auto;
+                        overflow-y: hidden;
+                        float: left;
+                        ul{
+                            float: left;
+                            height: 230px;
+                            li{
+                                    float: left;
+                                width: 120px;
+                                .pic{
+                                        width: 120px;
+                                    text-align: center;
+                                    a{
+                                        img{
+                                                width: 97px;
+                                            height: 97px;
+                                            display: inline;
+                                            opacity: 1;
+                                        }
+                                    }
+                                }
+                                .name{
+                                        width: 120px;
+                                    height: 36px;
+                                    text-overflow: clip;
+                                    display: block;
+                                    overflow: hidden;
+                                    float: left;
+                                    margin-top: 15px;
+                                    a{
+                                            color: #1b1b15;
+                                        line-height: 18px;
+                                    }
+                                    .cleb6100{
+                                        color: #eb6100!important;
+                                    }
+                                    .m15{
+                                        margin-left: 5px;
+                                    }
+                                }
+                                .price{
+                                    color: #ff6900;
+                                    line-height: 28px;
+                                    text-align: center;
+                                    width: 120px;
+                                    
+                                }
+                                .digital{
+                                    text-align: center;
+                                    width: 120px;
+                                    margin-top: 5px;
+                                    color: #999;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                }
+                            }
+                            .plus{
+                                float: left;
+                                width: 14px;
+                                height: 14px;
+                                text-align: center;
+                                margin: 45px 18px 0;
+                                background: url(../images/detail_ico_e7eb6dd1.gif) 0 -204px no-repeat;
+                            }
+                        }
+                        
+                    }
+                    ol{
+                        float: right;
+                        width: 280px;
+                        border-left: 1px solid #e7e7e7;
+                        margin: 20px 0;
+                        height: auto!important;
+                        height: 200px;
+                        min-height: 200px;
+                        padding-top: 30px;
+                        li{
+                            margin-left: 50px;
+                            height: 120px;
+                            p{
+                                line-height: 18px;
+                                span{
+                                        color: #ff6900;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                        .good15_buy_btn{
+                            margin-left: 50px;
+                            height: 120px;
+                            a{
+                                width: 122px;
+                                height: 30px;
+                                display: block;
+                                background: url(../images/detailsp_btn_c8171162.gif) no-repeat;
+                                background-position: -123px -212px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .good15_detail{
+            float: left;
+            width: 980px;
+            position: relative;
+            z-index: 70;
+            background-color: #fafafa;
+            border-bottom: 1px solid #efefe7;
+            border-left: 1px solid #efefe7;
+            border-right: 1px solid #efefe7;
+            border-top: 2px solid #8ab700;
+            height: 41px;
+            dt{
+                    float: left;
+                width: 672px;
+                em{
+                    float: left;
+                    position: relative;
+                    z-index: 70;
+                    height: 34px;
+                    width: 112px;
+                    a.on{
+                        color: #fff;
+                        font-size: 14px;
+                        text-decoration: none;
+                        
+                        height: 39px;
+                        background: url(../images/detail_ico2_aee48cd9.png) right -194px no-repeat;
+                    }
+                    a{
+                        color: #79a000;
+                        line-height: 34px;
+                        padding: 0px 4px 0 0;
+                        display: block;
+                        position: absolute;
+                        top: 0px;
+                        left: -1px;
+                        width: 108px;
+                        text-align: center;
+                        height: 34px;
+                        overflow: hidden;
+                        text-overflow: clip;
+                        font-weight: 400;
+                        font-family: "宋体";
+                        font-size: 12px;
+                    }
+                }
+            }
+            dd{
+                float: right;
+                margin: 7px 13px 0 0;
+                .dtl_btn{
+                    float: left;
+                    margin-right: 25px;
+                    font: 800 18px/30px "Microsoft YaHei";
+                    color: #ff6900;
+                    p{
+                        float: left;
+                        margin-right: 25px;
+                        font: 800 18px/30px "Microsoft YaHei";
+                        color: #ff6900;
+                    }
+                }
+                .good15_buy_btn{
+                    float: left;
+                    height: 30px!important;
+                    width: 122px;
+                    a{
+                        width: 122px;
+                        height: 30px;
+                        display: block;
+                        background: url(../images/detailsp_btn_c8171162.gif) no-repeat;
+                        
+                    }
+                    a.btn01{
+                        background-position: 0 -212px
+                    }
+                }
+            }
+        }
+        .box980{
+            .good15_all{
+                dl{
+                    dt{
+                        float: left;
+                        width: 980px;
+                        margin-bottom: 15px;
+                        img{
+                            display: inline;
+                            opacity: 1;
+                        }
+                    }
+                    dd{
+                        float: left;
+                        width: 980px;
+                        ul{
+                            float: left;
+                            width: 500px;
+                            padding: 5px 0 0 15px;
+                            li{
+                                line-height: 18px;
+                                color: #4c4c4c;
+                                padding-bottom: 15px;
+                                
+                            }
+                        }
+                        ol{
+                            float: right;
+                            width: 280px;
+                            padding: 0 100px 0 0;
+                            img{
+                                width: 280px;
+                                height: 280px;
+                                display: inline;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
