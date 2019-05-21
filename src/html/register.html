@@ -15,7 +15,19 @@
 	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
 	<script type="text/javascript">
 			$(function(){
-				$("#header").load('head.html')
+				$("#header").load('head.html',function(){
+					var $phone = getCookie('phone');
+	if(getCookie('phone')){
+		
+		$(".denglu a").remove();
+		$(".denglu span").remove();
+		$(".denglu").append('<dl><dt><a href="/UserHome/Index"><p>您好，</p><em class="user"></em></a><div class="head15_bg"></div></dt><dd><div class="user_login"><a href="/UserHome/Index" class="fl"><p class="user"></p></a><a href="/Account/LogOut?time=342.9592034276621">[退出登录]</a></div><em><a href="/UserHome">级别<br><span class="user_lh" style="line-height: 35px;s">注册会员</span></a></em><em><a href="/UserHome/ScoreExhibit">积分<br><span>0分</span><br><font>(0.0元)</font></a></em><em class="b0"><a href="/UserHome/User_Quan">优惠券<br><span class="user_lh">5张</span></a></em></dd></dl>') 
+		$(".user").html($phone);
+		console.log(111)
+		
+		
+	}
+				})
 				$("#right").load('bar.html')
 				$("#footer").load('foot.html')
 			});
@@ -81,7 +93,8 @@
 						<p>密码</p>
 						<input type="password" name="txtCustomerID" class="psw01" maxlength="11" placeholder="请输入密码"/>
 						<div class="tishiPsw">
-							密码必须6位以上且包含数字，字母，特殊符号
+							<!--密码必须6位以上且包含数字，字母，特殊符号-->
+							密码不能有特殊符号
 						</div>
 					</dl>
 					

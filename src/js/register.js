@@ -132,17 +132,18 @@ $(document).ready(function(){
 	    		}
     		})
     })
-    var pswReg = /^(?=.*[a-z][A-Z])(?=.*\d)(?=.*?[.#?!@$%^&*-]).{6,}$/;
+//  var pswReg = /^(?=.*[a-z][A-Z])(?=.*\d)(?=.*?[.#?!@$%^&*-]).{6,}$/;
+     var pswReg = /[a-zA-Z\d]{8,16}/;
     $(".psw01").blur(function(e){
     	if(pswReg.test($(".psw01").val())){
     		$(".tishiPsw").css("display","none")
     		console.log(1)
-			if(!$isok){
-				psw11 = true;
-			}else{
-				alert("请输入验证码")
-			}
-    		
+//			if(!$isok){
+//				psw11 = true;
+//			}else{
+//				alert("请输入验证码")
+//			}
+    		psw11 = true;
     		$(".psw s").css('background-position','0 -102px');
     	}else{
     		$(".tishiPsw").css("display","block")

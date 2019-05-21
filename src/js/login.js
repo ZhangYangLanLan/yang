@@ -39,18 +39,19 @@ $(function(){
     		}
     	})
 	})
-	var pswReg = /^(?=.*[a-z])(?=.*\d)(?=.*?[.#?!@$%^&*-]).{8,}$/;
-	$(".psw01").blur(function(e){
-    	if(pswReg.test($(".psw01").val())){
-    		$(".tishiPsw").css("display","none")
-    		$(".psw s").css('background-position','0 -102px');
-    		psw11 = true;
-    	}else{
-    		$(".tishiPsw").css("display","block")
-//  		console.log($(".psw01").val())
-			$(".psw s").css('background-position','0 -137px');
-    	}
-    })
+//	var pswReg = /^(?=.*[a-z])(?=.*\d)(?=.*?[.#?!@$%^&*-]).{8,}$/;
+//	$(".psw01").blur(function(e){
+//  	if(pswReg.test($(".psw01").val())){
+//  		$(".tishiPsw").css("display","none")
+//  		$(".psw s").css('background-position','0 -102px');
+//  		psw11 = true;
+//  	}else{
+//  		$(".tishiPsw").css("display","block")
+////  		console.log($(".psw01").val())
+//			$(".psw s").css('background-position','0 -137px');
+//  	}
+//  })
+	psw11 = true;
 	$(".log").click(function(e){
     			if(user){
 //  				console.log(suser)
@@ -79,7 +80,8 @@ $(function(){
 								success : function(str){
 									if(str =='yes'){
 										alert('登录成功')
-										location.href='../zhangyang.html?'+$("#phoneTxt").val();
+										location.href='../zhangyang.html?'+$("#phoneTxt").val();		
+										setCookie('phone',$("#phoneTxt").val(),0);
 										
 									}if(str =='no'){
 										alert('登录失败')

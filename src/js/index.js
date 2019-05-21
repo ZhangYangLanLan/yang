@@ -1,13 +1,7 @@
 $(function(){
 	//有用户就显示用户名
-	var $phone = getCookie('phone');
-	if(getCookie('phone')){
-		
-		$(".denglu a").remove();
-		$(".denglu span").remove();
-		$(".denglu").append('<dl><dt><a href="/UserHome/Index"><p>您好，</p><em class="user"></em></a><div class="head15_bg"></div></dt><dd><div class="user_login"><a href="/UserHome/Index" class="fl"><p class="user"></p></a><a href="/Account/LogOut?time=342.9592034276621">[退出登录]</a></div><em><a href="/UserHome">级别<br><span class="user_lh" style="line-height: 35px;s">注册会员</span></a></em><em><a href="/UserHome/ScoreExhibit">积分<br><span>0分</span><br><font>(0.0元)</font></a></em><em class="b0"><a href="/UserHome/User_Quan">优惠券<br><span class="user_lh">5张</span></a></em></dd></dl>') 
-		$(".user").html($phone);
-	}
+	
+	
 	var $lun = $(".zhangYang-lunBo");
 	 $('#toright').hover(function() {
         $("#toleft").hide()
@@ -157,7 +151,7 @@ $("#lunbobox ul li,.lunbo,#toright,#toleft ").hover(
     })
     
     var num = 0;
-    $(".btn").click(function(e){
+    $(".btn").click(function(){
     	$(".toShopCar").css("background","url(images/cart_pop04_7d8dece4.gif) no-repeat")
     	$(".toShopCar").css("backgroundPosition","-11px 0px")
     	num++;
@@ -166,27 +160,25 @@ $("#lunbobox ul li,.lunbo,#toright,#toleft ").hover(
     	if(num>9){
     		$(".num1").css("right","-51px")
     	}
+    	
     })
 
 	$(".btn").click(function(){
-		var $thid = $(this).parent().attr("data-id");
-		var $hid = parseInt($thid); 
-		console.log($hid)
+		var $phone = getCookie('phone');
+		var $gid = $(this).parent().attr("data-id");
 		$.ajax({
 			type:"get",
-			url:"api/gowWu.php",
+			url:"api/gouwucar.php",
 			async:true,
-			data : "id=" + $hid,
+			data : "gid=" + $gid  + "&phone=" +$phone,
 			success : function(str){
+				
 				console.log(str);
+				
 			}
 		});
 	})
-	$(".btn").click(function(){
-		
-		
-	})
-    
+	    
 })
 
 

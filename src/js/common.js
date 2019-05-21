@@ -435,6 +435,7 @@ function removeCookie(key) {
 	setCookie(key,'',-1);//设置成过去的时间
 }
 
+
 //$(function(){
 //	$(".btn").click(function(){
 //		var $thid = $(this).parent().attr("data-id");
